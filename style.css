@@ -13,6 +13,20 @@ body {
 	font-weight: 900;
 	font-size: 45px;
 	margin-bottom: 70px;
+	padding-top: 120px;
+}
+
+.pic__container {
+	width: 1050px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.author__container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
 }
 
 .pic_main {
@@ -21,7 +35,11 @@ body {
 
 .author {
 	font-size: 22px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+.author_d {
+	margin-bottom: 25px;
 }
 
 .nav {
